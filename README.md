@@ -1,3 +1,3 @@
 # ps
 
-notes for u
+letters for u
