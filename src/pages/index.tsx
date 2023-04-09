@@ -72,7 +72,7 @@ export default function Home() {
         <div className="flex flex-col gap-y-8">
           <div className="relative flex flex-col h-[36rem] bg-white pink-shadow rounded-xl">
             <div
-              className="flex flex-col flex-grow p-4 pb-8 overflow-y-scroll gap-y-2 animate-fadeIn"
+              className="flex flex-col flex-grow p-4 pb-8 overflow-y-auto gap-y-2 animate-fadeIn"
               ref={noteContentContainerRef}
             >
               {paragraphs.map((paragraph, index) => (
@@ -82,7 +82,8 @@ export default function Home() {
               ))}
             </div>
 
-            <div className="absolute bottom-0 left-0 w-full h-14 rounded-b-xl bg-gradient-to-b from-transparent to-white" />
+            <div className="absolute top-0 left-0 w-[97.5%] h-10 rounded-t-xl bg-gradient-to-t from-transparent to-white" />
+            <div className="absolute bottom-0 left-0 w-[97.5%] h-11 rounded-b-xl bg-gradient-to-b from-transparent to-white" />
           </div>
 
           <div className="flex flex-row justify-between mx-auto gap-x-16">

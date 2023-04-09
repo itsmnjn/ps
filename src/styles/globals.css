@@ -9,10 +9,10 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.pink-shadow {
-  box-shadow: 0px 3px 8px rgb(243, 222, 225, 0.7);
-}
-
 body {
   background-color: #fbf4f5;
+}
+
+.pink-shadow {
+  box-shadow: 0px 3px 8px rgb(243, 222, 225, 0.7);
 }
