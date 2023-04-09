@@ -93,8 +93,8 @@ export default function Home() {
             })}
           </h1>
 
-          <div className="flex flex-col gap-y-8">
-            <div className="relative flex flex-col h-[36rem] bg-white pink-shadow rounded-xl">
+          <div className="flex flex-col h-full gap-y-8">
+            <div className="relative flex flex-col h-[30rem] sm:h-[36rem] bg-white pink-shadow rounded-xl">
               <div
                 className="flex flex-col flex-grow p-4 pb-8 overflow-y-auto gap-y-2 animate-fadeIn"
                 ref={noteContentContainerRef}
